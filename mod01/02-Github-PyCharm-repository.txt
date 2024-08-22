@@ -1,0 +1,4 @@
+Luoin Githubin repositorion PyCharmissa ja
+terminaalissa käytin (git pull, git commit -m "" ja git push) tallentaakseen tiedostot Githubiin.
+
+Osio on tehty.
