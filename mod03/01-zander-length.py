@@ -5,6 +5,21 @@ if zander_length < 42:
 else:
     print("Your zander fish length is greater or equals to 42 cm. Keep the fish!")
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Finland version
 #kuha_pituus = float(input("Anna kuhan pituus: "))
 

@@ -1,4 +1,3 @@
-# Exercise 01
 firstName = input("Enter your name: ")
 
 def name(first_name):

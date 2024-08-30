@@ -6,9 +6,9 @@ while True:
     user_input = int(input("Enter a number: "))
 
     if user_input < random_number:
-        print("Too low")
+        print("Too low!")
     elif user_input > random_number:
-        print("Too high")
+        print("Too high!")
     else:
-        print("Correct")
+        print("Correct!")
         break

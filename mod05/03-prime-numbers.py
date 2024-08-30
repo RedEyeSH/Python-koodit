@@ -1,17 +1,21 @@
+import math
+
 number = int(input("Enter a number: "))
 
-prime_numbers = [2, 3]
+square_root = math.sqrt(number)
 
-if number % 2 == 0:
-    print("Prime number")
-elif number % 3 == 0:
-    print("Prime number")
-elif number % 5 == 0:
-    print("Prime number")
+is_prime = None
 
-for i in range(len(prime_numbers)):
-    if number % prime_numbers[i] == 0:
-        print("Prime number")
-    else:
-        print("Not a prime number")
+if number < 2:
+    print(number, "is not a prime number.")
+else:
+    is_prime = True
+    for i in range(2, int(square_root) + 1):
+        if number % i == 0:
+            is_prime = False
+            break
 
+if is_prime:
+    print(number, "is a prime number.")
+else:
+    print(number, "is not a prime number.")

@@ -9,4 +9,4 @@ for i in range(0, amountDice):
 
     x += dice
 
-print(f"{x}")
+print(f"You rolled {amountDice} times and got {x} in a total.")

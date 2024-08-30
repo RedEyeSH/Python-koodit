@@ -1,5 +1,6 @@
-for i in range(1, 1001):
-    if i % 3 == 0:
-        print(i)
+number = 1
 
-# while loop
+while number <= 1000:
+    if number % 3 == 0:
+        print(number)
+    number += 1

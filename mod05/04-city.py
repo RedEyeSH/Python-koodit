@@ -1,6 +1,6 @@
 cities = []
 
-for i in range(5):
+for i in range(0, 5):
     city = input(f"Enter the name of the city {i + 1}: ")
     cities.append(city)
 

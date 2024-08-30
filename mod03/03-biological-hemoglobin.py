@@ -26,12 +26,12 @@ if biological_gender == "man":
         print("Your hemoglobin value is low.")
     elif 134 <= hemoglobin_value <= 167:
         print("Your hemoglobin value is normal.")
-    elif hemoglobin_value > 167:
+    else:
         print("Your hemoglobin value is high.")
 elif biological_gender == "woman":
     if hemoglobin_value < 117:
         print("Your hemoglobin value is low.")
     elif 117 <= hemoglobin_value <= 155:
         print("Your hemoglobin value is normal.")
-    elif hemoglobin_value > 155:
+    else:
         print("Your hemoglobin value is high.")
