@@ -16,7 +16,7 @@ array.sort(reverse=True)
 result_array = []
 
 if len(array) > 5:
-    for i in range(0, 5):
+    for i in range(5):
         result_array.append(array[i])
     print(f"Five highest numbers: {result_array}")
 else:

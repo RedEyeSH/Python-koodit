@@ -15,7 +15,7 @@ else:
             is_prime = False
             break
 
-if is_prime:
-    print(number, "is a prime number.")
-else:
-    print(number, "is not a prime number.")
+    if is_prime:
+        print(number, "is a prime number.")
+    else:
+        print(number, "is not a prime number.")

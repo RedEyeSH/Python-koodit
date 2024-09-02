@@ -5,11 +5,11 @@ while True:
 
     if number == "":
         break
-
-    try:
-        array.append(int(number))
-    except ValueError:
-        print("Please enter a number.")
+    else:
+        try:
+            array.append(int(number))
+        except ValueError:
+            print("Please enter a number.")
 
 array.sort()
 

@@ -3,6 +3,6 @@ while True:
 
     if inches < 0:
         break
-
-    centimeters = inches * 2.54
-    print(f"{inches} inches is {centimeters} centimeters.")
+    else:
+        centimeters = inches * 2.54
+        print(f"{inches} inches is {centimeters} centimeters.")
