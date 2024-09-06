@@ -5,7 +5,7 @@ def dice(number_sided_dice, maximum_value):
         roll = random.randint(1,number_sided_dice)
 
         if roll == maximum_value:
-            print(f"Rolling a dice and got: {maximum_value}!")
+            print(f"Congratulations! You rolled a {maximum_value}!")
             break
         else:
             print("Rolling a dice and got:", roll)

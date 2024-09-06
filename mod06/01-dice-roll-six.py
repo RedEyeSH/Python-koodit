@@ -7,7 +7,7 @@ def dice():
         time.sleep(1)
 
         if roll == 6:
-            print("Rolling a dice and got: 6!")
+            print(f"Congratulations! You rolled a {roll}!")
             break
         else:
             print("Rolling a dice and got:", roll)
