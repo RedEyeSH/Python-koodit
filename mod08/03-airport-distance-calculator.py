@@ -36,7 +36,7 @@ if __name__ == "__main__":
     while len(icao_list) < 2:
         icao_code = input(f"Enter ICAO code for airport {count}: ").upper()
 
-        # Check if ICAO code exists
+        # Checks if ICAO code exists
         sql = f"SELECT latitude_deg, longitude_deg, name FROM airport WHERE gps_code = '{icao_code}'"
         cursor = connection.cursor()
         cursor.execute(sql)
